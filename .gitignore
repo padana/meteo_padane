@@ -3,7 +3,7 @@
 # dependencies
 
 API_KEY
-/env
+.env
 
 /node_modules
 /.pnp
