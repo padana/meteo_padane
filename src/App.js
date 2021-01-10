@@ -32,19 +32,6 @@ export default class App extends Component {
     return temperature
   }
 
-  // componentDidMount(){
-  //   axios.get(`${BASE}${API_KEY}`)
-  //   .then(res =>{
-  //     console.log(res);
-  //     this.setState({city:    res.data.name})
-  //     this.setState({country: res.data.sys.country})
-  //     this.setState({celsuis: this.Celsuis(res.data.main.temp)})
-  //     this.setState({min:     this.Celsuis(res.data.main.temp_min)})
-  //     this.setState({max:     this.Celsuis(res.data.main.temp_max)})
-  //     this.setState({description: res.data.weather[0].description})
-  //   })
-  // }
-
 
   handlSubmit(e){
     e.preventDefault()

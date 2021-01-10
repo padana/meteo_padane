@@ -13,7 +13,7 @@ export default function Temp(props) {
           
         >
           <div className="card-body">
-            <h2 className="card-title border border-warning rounded-circle w-25 bg-white text-dark m-auto">{city}</h2>
+            <h5  className="card-title border border-warning rounded-circle w-25 bg-white text-dark m-auto">{city}</h5>
             <h4 className="card-title bg-dark test-white mt-4">{(date).toLocaleDateString()}</h4><br/>
             <i className='ml-3 fas fa-temperature-high card-text' style={{fontSize:'36px'}}></i><br/>
              {celsuis? CELSUIS() : null}

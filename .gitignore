@@ -2,7 +2,7 @@
 
 # dependencies
 
-API_KEY
+/API_KEY
 .env
 
 /node_modules
